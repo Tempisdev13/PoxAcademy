@@ -1,0 +1,233 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.input-wrapper {
+	position: relative;
+    width: 271px;
+}
+input[type=search]{
+    border: 0;
+    border: 1px solid rgb(237, 235, 235);
+    height: 40px;
+    padding-left: 10px;
+    outline: 0;
+    border-radius: 10px;
+  }
+  div#is-relative{
+    position: relative;
+  }
+
+  #icon{
+    position: absolute;
+    display: block;
+    bottom: .5rem;
+    right: 1rem;
+    user-select: none;
+    cursor: pointer;
+  }
+  input.input{
+    padding-right: 3.5rem;
+  }
+
+  .navbar-nav > li{
+    padding-left:15px;
+    padding-right:15px;
+  }
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .card{
+    margin-bottom: 30px;
+  }
+  #cards{
+    padding: 60px 20px 0px 20px;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+  .fondo-principal{
+    background: rgb(0,113,128);
+    background: linear-gradient(153deg, rgba(0,113,128,1) 0%, rgba(24,36,91,1) 100%);
+    height: auto;
+    min-height: 100vh;
+  }
+  #banner{
+    height: auto;
+    min-height: 80vh;
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+  }
+  #stabletalks{
+    height: auto;
+    min-height: 60vh;
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+  #txt-titulo{
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+
+  #txt-description{
+    font-size: 22px;
+    font-weight: 200;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .boton {
+    padding: 15px 20px 15px 20px; /*espacio alrededor texto*/
+    background-color: #107280; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    border-radius: 10px; /*bordes redondos*/
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 10px;
+    }
+
+    .boton:hover {
+        padding: 15px 20px 15px 20px; /*espacio alrededor texto*/
+        background-color: #ffffff; /*color botón*/
+        color: #107280; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        border-radius: 10px; /*bordes redondos*/
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+
+        .card-text:last-child {
+            margin-bottom: 0;
+            text-align: end;
+        }
+        
+        .card-text{
+            text-align: start !important;
+        }
+        .card:hover{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                }
+
+
+    .img-m{
+        margin-top: 30px;
+    }
+
+    .title-h1{
+        color: #22295A;
+        font-size: 34px;
+        text-align: center;
+    }
+    .description{
+        color: #424242;
+        font-size: 18px;
+        text-align: center;
+    }
+    .cards-stabletalks {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .i-clock{
+        margin-right: 5px;
+    }
+
+    .content-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card-text-2{
+        text-align: end;
+    }
+
+    .container-stable{
+        text-align: center;
+    }
+
+    #title-comunidad{
+        text-align: left;
+        color: #22295A;
+        font-size: 34px;
+    }
+
+    .comunidad{
+        text-align: left;
+        height: auto;
+        padding: 20px 20px 20px 20px;
+        background-color: #ededed;
+        
+        
+    }
+
+    #txt-description-comunidad{
+        font-size: 16px;
+        font-weight: 300;
+        color: #424242;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+
+      .img-comunidad{
+  
+      }
+      .ico-com{
+        margin-bottom: 40px;
+        padding: 10px;
+      }
+      .txt-comunidad{
+        font-weight: 600;
+        color: #424242;
+        margin-top: 15px;
+      }
+  
+      .nombred{
+        font-size: 18px;
+        color: var(--negro);
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .skill{
+        font-size: 100px;
+        text-align: center;
+        color: var(--negro);
+    }
+
+    .menciones{
+        padding: 40px;
+        margin-top: 40px;
+        height: auto;        
+    }
+
+
+
+
+    .text-terminos{
+      font-size: 14px;
+      text-align: center;
+    }
+    .footer-p{
+      padding: 50px;
+    }
