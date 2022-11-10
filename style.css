@@ -177,10 +177,19 @@ input[type=search]{
     }
 
     #title-comunidad{
-        text-align: left;
-        color: #22295A;
-        font-size: 34px;
-    }
+      text-align: left;
+      color: #22295A;
+      font-size: 34px;
+      font-weight: 600;
+  }
+
+  #title-comunidad-2{
+    text-align: center;
+    color: #22295A;
+    font-size: 34px;
+    font-weight: 600;
+}
+
 
     .comunidad{
         text-align: left;
