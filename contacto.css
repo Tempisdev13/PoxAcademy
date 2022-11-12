@@ -62,9 +62,9 @@ input[type=search]{
   }
   .fondo-principal{
     background: rgb(0,113,128);
-    background: linear-gradient(153deg, rgba(0,113,128,1) 0%, rgba(24,36,91,1) 100%);
+    background: linear-gradient(360deg, rgba(14,113,128,1) 0%, rgba(34,41,90,1) 50% , rgba(12,0,47,1) 100%);
     height: auto;
-    min-height: 100vh;
+    min-height: 90vh;
   }
   #banner{
     height: auto;
@@ -87,6 +87,7 @@ input[type=search]{
     color: white;
     font-size: 48px;
     font-weight: 600;
+    margin-top: 20px;
   }
 
 
@@ -138,7 +139,11 @@ input[type=search]{
                 }
 
 
-   
+    .img-m{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
 
     .title-h1{
         color: #22295A;
@@ -352,3 +357,75 @@ input[type=search]{
       padding: 20px 0px 0px 0px;
     }
  
+    .navbar-dark .navbar-nav .nav-link {
+        color: #22295A !important;
+        
+    }
+
+
+    #titulo-blanco-contacto{
+        font-size: 30px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    #comentario-blanco-contacto{
+        font-size: 16px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+
+    .separacion{
+        border-bottom: 0.8px solid #ffffff;
+        margin-bottom: 20px;
+    }
+
+   .label-contacto{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left!important;
+   }
+
+   .form-group {
+    margin-bottom: 2rem;
+    text-align: left;
+    
+}
+
+
+   .boton-enviar {
+    padding: 10px 30px 10px 30px; /*espacio alrededor texto*/
+    background-color: #107280; /*color botón*/
+    color: #ffffff; /*color texto*/
+    border-radius: 10px; /*bordes redondos*/
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 50px !important;
+    }
+
+    .boton-enviar:hover {
+        background-color: #ffffff!important; /*color botón*/
+        color: #107280; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        border-radius: 10px; /*bordes redondos*/
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        
+
+
+        .contact{
+            margin-top: 30px;
+            border-top: 0.8px solid #ffffff;
+
+        }
+
+        .cont-ico{
+             margin-top: 30px;
+             font-weight: 200;
+             color: #ffffff;
+        }
+
+        #siguenos {
+            font-weight: 400;
+            margin-right: 25px;
+        }
