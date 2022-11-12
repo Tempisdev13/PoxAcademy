@@ -406,15 +406,15 @@ body{
 
 
   .carousel-articulos{
-    margin: 20px 100px 40px 100px;
+    margin: 20px 70px 40px 70px;
   }
 
   .filtros{
-    margin: 20px 100px 40px 100px;
+    margin: 20px 20px 40px 20px;
     border-bottom: 0.7px solid #11111129;
   }
   .articulos{
-    margin: 20px 100px 40px 100px;
+    margin: 20px 20px 40px 20px;
   }
 
 
@@ -458,7 +458,7 @@ body{
           font-size: 12px;
           font-weight: 400;
           border-radius: 10px; /*bordes redondos*/
-      
+          
           }
       
           .boton-filtro:hover {
