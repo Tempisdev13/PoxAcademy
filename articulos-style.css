@@ -68,11 +68,11 @@ input[type=search]{
     background: rgb(0,113,128);
     background: linear-gradient(153deg, rgba(0,113,128,1) 0%, rgba(24,36,91,1) 100%);
     height: auto;
-    min-height: 100vh;
+    min-height: 40vh;
   }
   #banner{
     height: auto;
-    min-height: 80vh;
+    min-height: 45vh;
     padding: 30px 20px 20px 20px;
     display: flex;
     align-items: center;
@@ -80,7 +80,7 @@ input[type=search]{
   #stabletalks{
     height: auto;
     min-height: 60vh;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 20px 0px 20px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -88,8 +88,8 @@ input[type=search]{
 }
   #txt-titulo{
     color: white;
-    font-size: 48px;
-    font-weight: 600;
+    font-size: 68px;
+    font-weight: 800;
     margin-top: 20px;
   }
 
@@ -145,9 +145,6 @@ input[type=search]{
                 }
 
 
-    .img-m{
-        margin-top: 30px;
-    }
 
     .title-h1{
         color: #22295A;
@@ -163,7 +160,6 @@ input[type=search]{
     }
     .cards-stabletalks {
         margin-top: 60px;
-        margin-bottom: 60px;
     }
 
     .i-clock{
@@ -403,10 +399,11 @@ body{
 
 
   .carousel-articulos{
-    padding: 20px 0px 20px 0px;
+    padding: 30px 20px 0px 20px;
     border-bottom: 0.7px solid #11111129;
 
   }
+
   
   .filtros{
     margin: 20px 20px 40px 20px;
@@ -417,6 +414,24 @@ body{
   }
 
 
+  .boton-mostrar {
+    padding: 5px 10px; /*espacio alrededor texto*/
+    background-color: #ffffff; /*color botón*/
+    color: #adadad; /*color texto*/
+    border: 2px solid #adadad;
+    text-decoration: none; /*decoración texto*/
+    border-radius: 10px; /*bordes redondos*/
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+
+    .boton-blanco:hover {
+        background-color: #107280; /*color botón*/
+        color: #fff; /*color texto*/
+        text-decoration: none;
+
+        }
 
 
   .boton-blanco {
@@ -436,6 +451,24 @@ body{
         text-decoration: none;
 
         }
+
+
+
+        .boton-ir {
+          background-color: #ffffff; /*color botón*/
+          color: #107280; /*color texto*/
+          border: 3px solid #107280 !important;
+          text-decoration: none; /*decoración texto*/
+          border-radius: 10px; /*bordes redondos*/
+          margin-bottom: 30px;
+          }
+      
+          .boton-ir:hover {
+              background-color: #107280; /*color botón*/
+              color: #fff; /*color texto*/
+              text-decoration: none;
+      
+              }
 
 
         .title-general{
@@ -582,8 +615,6 @@ body{
 
           .carousel-articulos-2{
             padding: 30px 20px 20px 20px;
-            padding-bottom: 60px;
-            border-bottom: 0.7px solid #11111129;
           }
 
           .boton-topics{
@@ -606,6 +637,7 @@ body{
 
           .card-ref{
             text-decoration: none!important;
+            color: #6c757d;
           }
 
           .navbar-toggler {
@@ -617,4 +649,117 @@ body{
             border-radius: 0.25rem;
         }
 
+
         
+    .poxopedia{
+      border-bottom: 4px solid #424242;
+      height: auto;
+    }
+
+    .bs{
+            border-bottom: 4px solid #424242;
+
+    }
+
+    .poxopedia-general{
+      padding: 10px 10px 10px 10px;
+    }
+
+    .title-poxopedia{
+      font-size: 26px;
+      font-weight: 700;
+      color: #22295A;
+      text-align: left!important;
+    }
+    .description-poxopedia{
+      font-size: 14px;
+      font-weight: 400;
+      color: #22295A;
+      text-align: left;
+    }
+
+
+
+
+    .poxpedia-general{
+      padding: 30px 0px 30px 0px;
+      border-top: .7px solid #424242;
+    }
+
+    .marg-p{
+      margin-bottom: 20px;
+      
+    }
+
+
+
+
+
+
+
+
+    ul.pagination {
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+  }
+  
+  ul.pagination li {display: inline;}
+  
+  ul.pagination li a {
+      color: black;
+      float: left;
+      padding: 8px 8px;
+      text-decoration: none;
+      transition: background-color .3s;
+      font-size: 16px;
+      font-weight: 700;
+  }
+  
+  ul.pagination li a.active {
+      background-color: #009997;
+      color: white;
+      border: 1px solid #009997;
+  }
+  .caja-img{
+          
+        
+    background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+        height: 900px;
+  }
+
+  
+  ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+  
+  div.center {text-align: center;}
+
+  @media all and (min-width: 300px) and (max-width: 1000px)
+  {  
+  .caja-img{
+    width: auto;
+    height:400px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    }
+    .carousel-articulos{
+      padding: 30px 0px 0px 0px;
+      border-bottom: 0.7px solid #11111129;
+  
+    }
+  
+    .crd-art{
+      justify-content: center;
+    }
+  
+    
+    .top{
+      justify-content: center;
+    }
+  
+  }
+
+  

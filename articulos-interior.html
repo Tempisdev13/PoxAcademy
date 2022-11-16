@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="articulos-style.css">
+    <link rel="stylesheet" href="articulo-interior.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -44,12 +44,10 @@
 <body>
     <div class="content-extended" style="padding: 0px 20px 0px 20px;">
 
-    <nav class="navbar navbar-expand-lg navbar-dark" style="
-        text-decoration: underline;
-        border-bottom: .7px solid #11111129;">
-            <div class="container-fluid" >
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container" style="padding: 0px 0px 0px 15px;">
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logotipo/PXOAcademy-logotipo-azul.png" width="110" height="60" alt="">
+                    <img src="assets/img/logotipo/PXOAcademy-logotipo-azul.png" width="130" height="70" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,14 +55,15 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="articulos.html">Articulos <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item  ">
-                            <a class="nav-link" href="stprogramado.html">StableTalks</a>
+                        <li class="nav-item">
+                            <a class="nav-link " href="articulos.html">Articulos <span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">PXOPedia</a>
+                            <a class="nav-link active" href="stprogramado.html">StableTalks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="poxopedia.html">PXOPedia</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contacto.html">Contacto</a>
@@ -81,165 +80,181 @@
                 </form>
             </div>
         </nav>
-    <section class="carousel-articulos">
-        <div class="breadcrumbles">
-            <div class="container">
-                <div class="row justify-content-between" >
-                    <div class="centerbread">
-                        <a href="articulos.html" target="_blank" class="return">
-                            <i class="fa-solid fa-arrow-left"></i>
-                        </a>
-                        <p id="breadcrumbles-title">PXO Academy / Articulos / <span id="breadcrumbles-texto">Lorem
-                                impsun interno</span></p>
+        <section class="carousel-articulos">
+            <div class="breadcrumbles">
+                <div class="container-fluid">
+                    <div class="row justify-content-between">
+                        <div class="centerbread">
+                            <a href="articulos.html" target="_blank" class="return">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </a>
+                            <p id="breadcrumbles-title">PXO Academy / Articulos / <span id="breadcrumbles-texto">Lorem
+                                    impsun interno</span></p>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <img class="d-block img-fluid" src="https://placeimg.com/1920/920/any" alt="First slide" style="padding: 10px 20px 10px 20px;" >
-        <div style="padding: 10px 20px 10px 20px;">
-            <div class="row justify-content-between">
-                <div class="col-lg-6 col-sm-12">
-                    <p class="title-interna">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-                </div>
-                <div class="col-md-3 col-lg-3 col-xs-1">
-                    <p class="card-text"><small class="text-muted"><i class="fa-regular fa-clock i-clock"></i>3 mins
-                        ago</small></p>
-                </div>
-            </div>
-            <p class="card-text-l"><small class="text-muted"><i class="fa-regular fa-clock i-clock"></i>8,may.</small></p>
-        </div>
-       
-    </section>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="caja-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between" style="margin-top: 15px;">
+                        <div class="col-lg-5 col-md-7 col-sm-12">
+                            <p class="title-interna">Lorem ipsum dolor sit amet, consectetur elit, expert saas </p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6">
+                            <p class="card-text"><small class="text-muted"><i class="fa-regular fa-clock i-clock"></i>3
+                                    mins
+                                    ago</small></p>
+                        </div>
+                        <div class="col-lg-2  col-md-2 col-sm-6">
+                            <p class="card-text-l"><small class="text-muted"><i
+                                        class="fa-regular fa-clock i-clock"></i>8,may.</small></p>
+                        </div>
+
+                        <div class="col-12">
+                            <p class="txt-articulo-interior-description">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Recusandae assumenda illum quo voluptatibus, aut vel veniam quidem,
+                                aspernatur facilis illo voluptates beatae. Repellendus ut et asperiores provident
+                                tenetur labore repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                                vel. Voluptatibus ducimus odio ipsam voluptas magni, nobis atque, tempore cupiditate
+                                consequatur quaerat eum asperiores, laudantium libero consectetur iste. Est, aspernatur?
+                            </p>
+                            <p class="txt-articulo-interior-description">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Sapiente eligendi delectus architecto magni inventore voluptate eos
+                                omnis, excepturi ipsam aperiam. Nobis labore ex placeat beatae dolore iure soluta
+                                tempora vitae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ea
+                                temporibus qui! Laudantium ratione ipsa deserunt amet recusandae nostrum voluptatem
+                                exercitationem reiciendis! Laboriosam adipisci consectetur possimus dignissimos harum
+                                fuga odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae assumenda
+                                illum quo voluptatibus, aut vel veniam quidem, aspernatur facilis illo voluptates
+                                beatae. Repellendus ut et asperiores provident tenetur labore repellat. Lorem ipsum
+                                dolor sit amet consectetur adipisicing elit. Nemo, vel. Voluptatibus ducimus odio ipsam
+                                voluptas magni, nobis atque, tempore cupiditate consequatur quaerat eum asperiores,
+                                laudantium libero consectetur iste. Est, aspernatur?</p>
+                            <p class="txt-articulo-interior-description">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Recusandae assumenda illum quo voluptatibus, aut vel veniam quidem,
+                                aspernatur facilis illo voluptates beatae. Repellendus ut et asperiores provident
+                                tenetur labore repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                                vel. Voluptatibus ducimus odio ipsam voluptas magni, nobis atque, tempore cupiditate
+                                consequatur quaerat eum asperiores, laudantium libero consectetur iste. Est, aspernatur?
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-between" style="  margin-top: 30px;
+                    border-top: .9px solid #D4D4D650;">
+                        <div class="col-auto ">
+                            <p class="title-general">Quizas te interese</p>
+                        </div>
 
 
-    <section class="carousel-articulos-2">
-        <p class="texto-interno">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Malesuada nunc vel risus commodo. Et odio pellentesque diam volutpat commodo sed.
-            Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Ornare arcu odio ut sem
-            nulla. Massa tincidunt dui ut ornare lectus. Est ullamcorper eget nulla facilisi etiam. Consectetur lorem
-            donec massa sapien faucibus et. Facilisis volutpat est velit egestas dui. Cursus mattis molestie a iaculis
-            at erat. Ac tortor vitae purus faucibus ornare suspendisse. Etiam dignissim diam quis enim lobortis.
-            Vulputate odio ut enim blandit volutpat. Arcu dictum varius duis at consectetur. Amet mattis vulputate enim
-            nulla aliquet porttitor lacus luctus. Tempus iaculis urna id volutpat lacus.
-        </p>
-        <p class="texto-interno">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Malesuada nunc vel risus commodo. Et odio pellentesque diam volutpat commodo sed.
-            Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Ornare arcu odio ut sem
-            nulla. Massa tincidunt dui ut ornare lectus. Est ullamcorper eget nulla facilisi etiam. Consectetur lorem
-            donec massa sapien faucibus et. Facilisis volutpat est velit egestas dui. Cursus mattis molestie a iaculis
-            at erat. Ac tortor vitae purus faucibus ornare suspendisse. Etiam dignissim diam quis enim lobortis.
-            Vulputate odio ut enim blandit volutpat. Arcu dictum varius duis at consectetur. Amet mattis vulputate enim
-            nulla aliquet porttitor lacus luctus. Tempus iaculis urna id volutpat lacus.
-        </p>
-        <p class="texto-interno">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Malesuada nunc vel risus commodo. Et odio pellentesque diam volutpat commodo sed.
-            Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Ornare arcu odio ut sem
-            nulla. Massa tincidunt dui ut ornare lectus. Est ullamcorper eget nulla facilisi etiam. Consectetur lorem
-            donec massa sapien faucibus et. Facilisis volutpat est velit egestas dui. Cursus mattis molestie a iaculis
-            at erat. Ac tortor vitae purus faucibus ornare suspendisse. Etiam dignissim diam quis enim lobortis.
-            Vulputate odio ut enim blandit volutpat. Arcu dictum varius duis at consectetur. Amet mattis vulputate enim
-            nulla aliquet porttitor lacus luctus. Tempus iaculis urna id volutpat lacus.
-        </p>
-    </section>
+                        <div class="row crd-art">
 
-
-    <section class="carousel-articulos-2">
-        <div class="container-fluid">
-            <div class="row justify-content-between">
-                <div class="col-auto ">
-                    <p class="title-general">Quizas te interese</p>
-                </div>
-
-
-                <div class="row">
-                   
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                        <a class="card-ref" href="/articulos-interior.html">
-                            <div class="card mb-3">
-                                <img src="https://placeimg.com/1920/1080/any" class="card-img-top img-fluid" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="text-card-2">This is a wider card with supporting text below as a natural
-                                        lead-in
-                                        to
-                                        additional content. This content is a little bit longer.</p>
-                                    <div class="container">
-                                        <div class="row justify-content-between">
-                                            <p class="card-text-l"><small class="text-muted"><i
-                                                        class="fa-regular fa-clock i-clock"></i>8, may.</small></p>
-                                            <p class="card-text"><small class="text-muted"><i
-                                                        class="fa-regular fa-clock i-clock"></i>3 mins ago</small></p>
+                            <div class="col-xs-8 col-sm-8 col-md-9 col-lg-4">
+                                <a class="card-ref" href="/articulos-interior.html">
+                                    <div class="card mb-3">
+                                        <img src="https://placeimg.com/1920/1080/any" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="text-card-2">This is a wider card with supporting text below as a
+                                                natural
+                                                lead-in
+                                                to
+                                                additional content. This content is a little bit longer.</p>
+                                            <div class="container">
+                                                <div class="row justify-content-between">
+                                                    <p class="card-text-l"><small class="text-muted"><i
+                                                                class="fa-regular fa-clock i-clock"></i>8, may.</small>
+                                                    </p>
+                                                    <p class="card-text"><small class="text-muted"><i
+                                                                class="fa-regular fa-clock i-clock"></i>3 mins
+                                                            ago</small></p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                        <a class="card-ref" href="/articulos-interior.html">
-                            <div class="card mb-3">
-                                <img src="https://placeimg.com/1920/1080/any" class="card-img-top img-fluid" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="text-card-2">This is a wider card with supporting text below as a natural
-                                        lead-in
-                                        to
-                                        additional content. This content is a little bit longer.</p>
-                                    <div class="container">
-                                        <div class="row justify-content-between">
-                                            <p class="card-text-l"><small class="text-muted"><i
-                                                        class="fa-regular fa-clock i-clock"></i>8, may.</small></p>
-                                            <p class="card-text"><small class="text-muted"><i
-                                                        class="fa-regular fa-clock i-clock"></i>3 mins ago</small></p>
+                            <div class="col-xs-8 col-sm-8 col-md-9 col-lg-4">
+                                <a class="card-ref" href="/articulos-interior.html">
+                                    <div class="card mb-3">
+                                        <img src="https://placeimg.com/1920/1080/any" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="text-card-2">This is a wider card with supporting text below as a
+                                                natural
+                                                lead-in
+                                                to
+                                                additional content. This content is a little bit longer.</p>
+                                            <div class="container">
+                                                <div class="row justify-content-between">
+                                                    <p class="card-text-l"><small class="text-muted"><i
+                                                                class="fa-regular fa-clock i-clock"></i>8, may.</small>
+                                                    </p>
+                                                    <p class="card-text"><small class="text-muted"><i
+                                                                class="fa-regular fa-clock i-clock"></i>3 mins
+                                                            ago</small></p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
+
+                        <div class="row top">
+                            <div class="col-12">
+                                <p class="title-general">Topics</p>
+                            </div>
+                            <div class="col-auto bt-col">
+                                <a href="http://laweb.com" target="_blank" class="boton-topics">Stablecoin<i
+                                        class="fa-solid fa-check"></i></a>
+                            </div>
+                            <div class="col-auto bt-col">
+                                <a href="http://laweb.com" target="_blank" class="boton-topics">Fintech<i
+                                        class="fa-solid fa-check"></i></a>
+                            </div>
+                            <div class="col-auto bt-col">
+                                <a href="http://laweb.com" target="_blank" class="boton-topics">Tecnología<i
+                                        class="fa-solid fa-check"></i></a>
+                            </div>
+                        </div>
+
+
                     </div>
+                </div>
 
-            </div>
+        </section>
+
+
+
+
+
+        <div class="contenedor">
+            <button class="botonF1">
+                <span>+</span>
+            </button>
+            <button class="btn botonF2">
+                <span> <a class="fb-ic">
+                        <i class="fab fa-facebook-f fa-lg white-text"> </i>
+                    </a></span>
+            </button>
+            <button class="btn botonF3">
+                <span> <a class="tw-ic">
+                        <i class="fab fa-twitter fa-lg white-text  "> </i>
+                    </a></span>
+            </button>
+            <button class="btn botonF4">
+                <span> <a class="ins-ic">
+                        <i class="fab fa-instagram fa-lg white-text "> </i>
+                    </a></span>
+            </button>
 
         </div>
-    </section>
-
-
-    <section class="articulos">
-        <div class="container-fluid">
-            <div class="row justify-content-between">
-                <div class="col-auto ">
-                    <p class="title-general">Topics</p>
-                </div>
-
-
-
-
-            </div>
-            <div class="row">
-                <div class="col-auto bt-col">
-                    <a href="http://laweb.com" target="_blank" class="boton-topics">Stablecoin<i class="fa-solid fa-check"></i></a>
-                </div>
-                <div class="col-auto bt-col">
-                    <a href="http://laweb.com" target="_blank" class="boton-topics">Fintech<i class="fa-solid fa-check"></i></a>
-                </div>
-                <div class="col-auto bt-col">
-                    <a href="http://laweb.com" target="_blank" class="boton-topics">Tecnología<i class="fa-solid fa-check"></i></a>
-                </div>
-              
-            </div>
-
-        </div>
-    </section>
     </div>
-
-
-
-
-
-
 </body>
 
 
@@ -291,7 +306,12 @@ background: linear-gradient(0deg, rgba(14,113,128,1) 0%, rgba(34,41,90,1) 53%, r
 </footer>
 
 <script>
-
+    $('.botonF1').hover(function () {
+        $('.btn').addClass('animacionVer');
+    })
+    $('.contenedor').mouseleave(function () {
+        $('.btn').removeClass('animacionVer');
+    })
 </script>
 
 
