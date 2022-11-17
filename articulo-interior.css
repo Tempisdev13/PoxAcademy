@@ -5,6 +5,29 @@
     box-sizing: border-box;
     text-decoration: none !important;
   }
+  .txt-h{
+    font-size: 19px;
+    font-weight: 600;
+    color: #22295A;
+  }
+  .txt-person-class{
+    font-size: 14px;
+    font-weight: 300;
+    color: hsl(233, 45%, 24%);
+    margin-top: -20px;
+
+  }
+  .c-m{
+    margin-top: -15px;
+    padding: 10px;
+  }
+  .txt-person{
+    font-size: 16px;
+    font-weight: 500;
+    color: #22295A;
+    margin-top: 0px;
+  }
+
   .navbar-nav > .active > a {
     font-weight: 500;  
     text-decoration: underline !important;
@@ -54,6 +77,15 @@
       box-shadow: none;
     }
   
+        
+
+    .col-img-host{
+      border-radius: 50%;
+      height: 60px!important;
+      width: 60px!important;
+      
+    }
+
     .card{
       margin-bottom: 30px;
     }
@@ -411,11 +443,11 @@
   
     
     .filtros{
-      margin: 20px 20px 40px 20px;
+      margin: 10px 20px 20px 20px;
       border-bottom: 0.7px solid #11111129;
     }
     .articulos{
-      margin: 20px 20px 40px 20px;
+      margin: 10px 20px 20px 20px;
     }
   
   
@@ -431,13 +463,38 @@
       margin-bottom: 20px;
       }
   
-      .boton-blanco:hover {
-          background-color: #107280; /*color botón*/
-          color: #fff; /*color texto*/
-          text-decoration: none;
-  
-          }
-  
+      .title-general{
+        text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+  color: #22295A;
+  margin-bottom: 40px;
+      }
+      .boton-3 {
+        height: 40px;
+        width: 1000px;
+        line-height: 40px;
+        background-color: #107280; /*color botón*/
+        color: #ffffff; /*color texto*/
+        border-radius: 10px; /*bordes redondos*/
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-top: 10px;
+        width: 100%;
+        }
+
+
+    .boton-3:hover {
+      background-color: #ffffff; /*color botón*/
+      color: #107280 !important; /*color texto*/
+      text-decoration: none; /*decoración texto*/
+      border-radius: 10px; /*bordes redondos*/
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      }
+
+      .cont{
+        background-color: #009688;
+        width: 100%;
+      }
   
     .boton-blanco {
       padding: 5px 10px; /*espacio alrededor texto*/
@@ -448,6 +505,7 @@
       border-radius: 10px; /*bordes redondos*/
       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
       margin-top: 10px;
+      width: 100%;
       }
   
       .boton-blanco:hover {
@@ -603,14 +661,11 @@
               }
               .text-muted {
                 color: #6c757d!important;
-                font-size: 12px;
+                font-size: 15px;
             }
   
   
-              .text-muted {
-                color: #6c757d!important;
-                font-size: 16px;
-            }
+         
   
             .texto-interno{
               font-size: 18px;
@@ -806,16 +861,27 @@
       transform:scale(1);
     }
     
-    .caja-img{
-          
-        
-      background-position: center; /* Center the image */
-          background-repeat: no-repeat; /* Do not repeat the image */
-          background-size: cover;
-          background-image: url("assets/img/placeholder.webp");
-          height: 900px;
-    }
+    .boton-2 {
+      height: 40px;
+      width: 1000px;
+      line-height: 40px;
+      background-color: #107280; /*color botón*/
+      color: #ffffff; /*color texto*/
+      border-radius: 10px; /*bordes redondos*/
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      margin-top: 10px;
+      width: 100%;
+      }
 
+
+  .boton-2:hover {
+    background-color: #ffffff; /*color botón*/
+    color: #107280 !important; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    border-radius: 10px; /*bordes redondos*/
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    
     .crd-art{
       justify-content: left;
     }
@@ -828,16 +894,37 @@
 {  
 .caja-img{
   width: auto;
-  height:400px;
+  height:100%;
   background-size: 100%;
   background-repeat:no-repeat;
   background-image: url("assets/img/placeholder.webp");
   background-size: cover;
   
   }
+
+  
+.caja-img{
+  width: auto;
+  height:100%;
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-image: url("assets/img/placeholder.webp");
+  background-size: cover;
+  margin-top: 15px;
+  
+  }
+    
+.caja-img-2{
+  width: auto;
+  height:500px;
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-image: url("assets/img/placeholder.webp");
+  background-size: cover;
+  background-position: center;
+  }
   .carousel-articulos{
-    padding: 30px 0px 0px 0px;
-    border-bottom: 0.7px solid #11111129;
+    padding: 0px 0px 0px 0px;
 
   }
 

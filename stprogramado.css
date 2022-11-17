@@ -11,6 +11,17 @@
     outline: none;
     box-shadow: none;
 }
+    
+.caja-img{
+          
+        
+  background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+      background-image: url("assets/img/placeholder.webp");
+      height: 900px;
+}
+
 
 .input-wrapper {
 	position: relative;
@@ -296,6 +307,11 @@ input[type=search]{
                 color: #424242;
                 margin-top: 15px;
               }
+                   
+          .card-text{
+            text-align: end !important;
+        }
+         
 
               .card-text-2{
                 font-weight: 23px !important;

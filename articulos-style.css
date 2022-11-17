@@ -16,6 +16,13 @@
     box-shadow: none;
 }
 
+.caja-img{
+  background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+      height: 200px;
+}
+
 .input-wrapper {
 	position: relative;
     width: 271px;
