@@ -523,6 +523,7 @@
             text-decoration: none; /*decoración texto*/
             border-radius: 10px; /*bordes redondos*/
             margin-bottom: 30px;
+            padding: 5px;
             }
         
             .boton-ir:hover {
@@ -648,7 +649,7 @@
                 }
   
                 .title-interna{
-                  font-size: 25px;
+                  font-size: 32px;
                   font-weight: 600;
                   color: #424242;
                 }
@@ -662,7 +663,10 @@
                 color: #6c757d!important;
                 font-size: 15px;
             }
-  
+            .text-muted-2 {
+              color: #6c757d!important;
+              font-size: 20px;
+          }
   
          
   
