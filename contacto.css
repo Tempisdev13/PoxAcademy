@@ -14,6 +14,11 @@
     color: #009997!important;
       
 }
+#dt-s{
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 18px;
+}
 .navbar-nav > .active > a {
   font-weight: 500;  
   text-decoration: underline !important;
