@@ -436,7 +436,7 @@
   
   
     .carousel-articulos{
-      padding: 30px 100px 0px 100px;
+      padding: 30px 100px 30px 100px;
   
     }
   
@@ -661,7 +661,7 @@
               }
               .text-muted {
                 color: #6c757d!important;
-                font-size: 15px;
+                font-size: 25px;
             }
             .text-muted-2 {
               color: #6c757d!important;
@@ -938,6 +938,22 @@
   
   .top{
     justify-content: center;
+  }
+
+  .fa-regular{
+    font-size: 14px;
+  }
+
+  .text-muted-2{
+    font-size: 14px;
+  }
+  .text-muted{
+    font-size: 14px;
+    
+  }
+
+  .title-interna{
+    font-size: 18px;
   }
 
 }
